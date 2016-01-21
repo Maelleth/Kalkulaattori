@@ -1,4 +1,4 @@
-### **Aihe:** laskin 
+**Aihe:** laskin 
 
 Toteutetaan laskin, jolla voi laskea yhteenlaskuja, vähennyslaskuja, kertolaskuja, jakolaskuja, neliöjuuren, sekä toiseen potenssiin korotuksen. Lisäksi laskimen voi nollata. Laskimessa on siis napit näitä laskutoimituksia ja nollausta varten.
 
