@@ -1,6 +1,6 @@
 **Aihe:** laskin 
 
-Toteutetaan laskin, jolla voi laskea yhteenlaskuja, vähennyslaskuja, kertolaskuja, jakolaskuja, neliöjuuren, sekä toiseen potenssiin korotuksen. Lisäksi laskimen voi nollata. Laskimessa on siis napit näitä laskutoimituksia ja nollausta varten. Laskimen nollaus nappia voi painaa kun tuloskentässä on joku muu luku kuin nolla, koska muuten nollaus olisi turhaa.
+Toteutetaan laskin, jolla voi laskea muunmuassa yhteenlaskuja, vähennyslaskuja, kertolaskuja, jakolaskuja, neliöjuuren, sekä toiseen potenssiin korotuksen. Lisäksi laskimen voi nollata. Laskimessa on siis napit näitä laskutoimituksia ja nollausta varten. Laskimen nollaus nappia voi painaa kun tuloskentässä on joku muu luku kuin nolla, koska muuten nollaus olisi turhaa.
 
 Numeroille ei ole laskimessa omia nappeja, vaan numerot syötetään näppäimistöllä alempaan tekstikenttään. Laskimessa ei myöskään ole "yhtä kuin" nappia. Ylempi tekstikenttä toimii tuloksen näyttäjänä. Laskimessa on siis kaksi tekstikenttää. 
 
@@ -15,7 +15,6 @@ Tuloksen näyttävä tekstikenttä päivittyy automaattisesti eikä "yhtä kuin"
 * nollausnapin painaminen
  * onnistuu jos tuloskentän luku on muu kuin 0, eli kun laskin ei ole "alkutilassa"
 
-![Alt text](\Users\Sara\Pictures\luokkaKaavio.jpg "Luokkakaavio")
  
 
 
