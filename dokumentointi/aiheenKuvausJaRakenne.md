@@ -14,6 +14,8 @@ Tuloksen näyttävä tekstikenttä päivittyy automaattisesti eikä "yhtä kuin"
 * laskutoimitusnappien painaminen
 * nollausnapin painaminen
  * onnistuu jos tuloskentän luku on muu kuin 0, eli kun laskin ei ole "alkutilassa"
+
+![Alt text](C:\Users\Sara\Pictures\luokkaKaavio.jpg "Luokkakaavio")
  
 
 
