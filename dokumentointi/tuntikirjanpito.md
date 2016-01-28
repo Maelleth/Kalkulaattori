@@ -15,3 +15,13 @@
 **Ajankäytön kohde:** 
 - luokkakaavion teko
 - aihekuvauksen tiivistelmän, sekä aiheen kuvaus ja tuntikirjanpito linkkien lisäys README-tiedostoon
+
+#### **28.01.2016:**
+
+**Käyttämäni aika:** noin 3h
+
+**Ajankäytön kohde:** 
+- luokkakaavion lisäys aiheenKuvausJaRakenne -tiedostoon
+- Logiikka luokan ohjelmoinnin aloitus ja Main luokan luominen
+- Logiikka luokan testien tekeminen
+- pit-raportin teko, ja sen siirto dokumentointiin
