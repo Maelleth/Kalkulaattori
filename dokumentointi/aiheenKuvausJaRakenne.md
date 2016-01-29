@@ -10,8 +10,14 @@ Tuloksen näyttävä tekstikenttä päivittyy automaattisesti eikä "yhtä kuin"
 
 **Käyttäjän toiminnot:**
 
-* numeron syöttö
+* numeron syöttö alempaan tekstikenttään
 * laskutoimitusnappien painaminen
+ * summa
+ * erotus
+ * jako
+ * kerto
+ * neliö (toiseen potenssiin korotus)
+ * neliöjuuri
 * nollausnapin painaminen
  * onnistuu jos tuloskentän luku on muu kuin 0, eli kun laskin ei ole "alkutilassa"
 
