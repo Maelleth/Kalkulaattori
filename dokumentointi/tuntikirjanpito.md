@@ -25,3 +25,12 @@
 - Logiikka luokan ohjelmoinnin aloitus ja Main luokan luominen
 - Logiikka luokan testien tekeminen
 - pit-raportin teko, ja sen siirto dokumentointiin
+
+#### **02.02.2016:**
+
+**Käyttämäni aika:** noin 1h
+
+**Ajankäytön kohde:** 
+- luokkakaavion muokkaus
+- Logiikka luokan ohjelmointi
+- Logiikka luokkaan lisää testejä
