@@ -28,9 +28,11 @@
 
 #### **02.02.2016:**
 
-**Käyttämäni aika:** noin 1h
+**Käyttämäni aika:** noin 2h
 
 **Ajankäytön kohde:** 
 - luokkakaavion muokkaus
 - Logiikka luokan ohjelmointi
 - Logiikka luokkaan lisää testejä
+- Lampotilamuunnin luokan ohjelmointi
+- aihekuvauksen muokkaus

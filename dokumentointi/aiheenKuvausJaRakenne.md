@@ -6,6 +6,8 @@ Numeroille ei ole laskimessa omia nappeja, vaan numerot syötetään näppäimis
 
 Tuloksen näyttävä tekstikenttä päivittyy automaattisesti eikä "yhtä kuin" nappia painamalla. Esimerkiksi kun tuloskentässä on 0 ja käyttäjä syöttää alempaan tekstikenttään numeron 5 ja painaa plus nappia, niin tuloskenttään tulee luku 5. Jos käyttäjä tämän jälkeen syöttää esimerkiksi numeron 3 ja painaa miinus nappia, niin tuloskenttään tulee luku 2. Laskin toimii kun käyttäjä syöttää numeroita, eli kirjaimia, sanoja tai numero-kirjain -yhdistelmiä ei hyväksytä.
 
+Laskimessa on myös lämpötilamuunnin nappeja, joilla voi muuntaa Celsiukset Fahrenheiteiksi ja Kelvineiksi, Fahrenheitit Celsiuksiksi ja Kelvineiksi, sekä Kelvinit Celsiuksiksi ja Fahrenheiteiksi.
+
 **Käyttäjät:** Laskinta tarvitseva käyttäjä
 
 **Käyttäjän toiminnot:**
@@ -20,6 +22,11 @@ Tuloksen näyttävä tekstikenttä päivittyy automaattisesti eikä "yhtä kuin"
  * neliöjuuri
 * nollausnapin painaminen
  * onnistuu jos tuloskentän luku on muu kuin 0, eli kun laskin ei ole "alkutilassa"
+* lampotilamuunnin nappien painaminen
+ * Celsiuksista Fahrenheiteihin/Kelvineihin
+ * Fahrenheiteista Celsiuksiin/Kelvineihin
+ * Kelvineistä Celsiuksiin/Fahrenheiteihin
+ 
 
  ![Luokkakaavio](uusiLuokkaKaavio.png "Luokkakaavio")
 
