@@ -135,6 +135,40 @@ public class LogiikkaTest {
         assertEquals(Math.sqrt(5), vastaus, 0.01);
     }
     
+    @Test
+    public void logaritmiMetodiToimii1() {
+        double vastaus = logiikka.logaritmi(20);
+        assertEquals(Math.log10(20), vastaus, 0.01);
+    }
     
+    @Test
+    public void logaritmiMetodiToimii2() {
+        double vastaus = logiikka.logaritmi(100);
+        assertEquals(2, vastaus, 0.01);
+    }
+    
+    @Test
+    public void logaritmiMetodiToimii3() {
+        double vastaus = logiikka.logaritmi(75);
+        assertEquals(Math.log10(75), vastaus, 0.01);
+    }
+    
+    @Test
+    public void kertomaMetodiToimii1() {
+        int vastaus = logiikka.kertoma(3);
+        assertEquals(6, vastaus);
+    }
+    
+    @Test
+    public void kertomaMetodiToimii2() {
+        int vastaus = logiikka.kertoma(5);
+        assertEquals(120, vastaus);
+    }
+    
+    @Test
+    public void kertomaMetodiToimii3() {
+        int vastaus = logiikka.kertoma(8);
+        assertEquals(40320, vastaus);
+    }
     
 }

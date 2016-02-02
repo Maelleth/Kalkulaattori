@@ -35,4 +35,16 @@ public class Logiikka {
     public int nelio(int luku) {
         return luku * luku;
     }
+    
+    public double logaritmi(double luku) {
+        return Math.log10(luku);
+    }
+    
+    public int kertoma(int luku ){
+        if(luku <= 1) {
+            return 1;
+        } else {
+            return luku * kertoma(luku - 1);
+        }
+    }
 }
