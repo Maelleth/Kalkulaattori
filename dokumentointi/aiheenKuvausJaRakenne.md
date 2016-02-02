@@ -21,6 +21,6 @@ Tuloksen näyttävä tekstikenttä päivittyy automaattisesti eikä "yhtä kuin"
 * nollausnapin painaminen
  * onnistuu jos tuloskentän luku on muu kuin 0, eli kun laskin ei ole "alkutilassa"
 
- ![Luokkakaavio](luokkaKaavio.png "Luokkakaavio")
+ ![Luokkakaavio](uusiLuokkaKaavio.png "Luokkakaavio")
 
 
