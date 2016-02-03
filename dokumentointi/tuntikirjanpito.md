@@ -36,3 +36,11 @@
 - Logiikka luokkaan lisää testejä
 - Lampotilamuunnin luokan ohjelmointi
 - aihekuvauksen muokkaus
+
+#### **03.02.2016:**
+
+**Käyttämäni aika:** noin 2,5h
+
+**Ajankäytön kohde:** 
+- Lampotilamuunnin luokan testien tekeminen
+- Koodikatselmoinnin tekeminen
