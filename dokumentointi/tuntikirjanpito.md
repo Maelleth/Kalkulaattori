@@ -44,3 +44,13 @@
 **Ajankäytön kohde:** 
 - Lampotilamuunnin luokan testien tekeminen
 - Koodikatselmoinnin tekeminen
+
+#### **09.02.2016:**
+
+**Käyttämäni aika:** noin 4,5h
+
+**Ajankäytön kohde:** 
+- Laskin luokan ohjelmoinnin aloitus
+- Laskunapinkuuntelija luokan ohjelmoinnin aloitus
+- JavaDocia luokille ja metodeille
+- luokkakaavion muokkaus
