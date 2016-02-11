@@ -54,3 +54,13 @@
 - Laskunapinkuuntelija luokan ohjelmoinnin aloitus
 - JavaDocia luokille ja metodeille
 - luokkakaavion muokkaus
+
+#### **11.02.2016:**
+
+**Käyttämäni aika:** noin 2h
+
+**Ajankäytön kohde:** 
+- Laskunapinkuuntelija luokan ohjelmointia
+- Testejä luokalle Laskunapinkuuntelija
+- Checkstylen tuonti projektiin
+
