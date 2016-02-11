@@ -44,43 +44,61 @@ public class Laskunapinkuuntelija implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        int luku1 = Integer.parseInt(syote.getText());
-        int luku2 = Integer.parseInt(tulos.getText());
+        if (onDouble(syote.getText())) {
 
-        if (e.getSource() == summa) {
-            tulos.setText("" + (logiikka.summa(luku1, luku2)));
-            syote.setText("");
-        } else if (e.getSource() == erotus) {
-            tulos.setText("" + (logiikka.erotus(luku1, luku2)));
-            syote.setText("");
-        } else if (e.getSource() == jako) {
-            tulos.setText("" + (logiikka.jako(luku1, luku2)));
-            syote.setText("");
-        } else if (e.getSource() == kerto) {
-            tulos.setText("" + (logiikka.kerto(luku1, luku2)));
-            syote.setText("");
+            double luku1 = Double.parseDouble(syote.getText());
+            double luku2 = Double.parseDouble(tulos.getText());
+
+            if (e.getSource() == summa) {
+                tulos.setText("" + (logiikka.summa(luku1, luku2)));
+                syote.setText("");
+            } else if (e.getSource() == erotus) {
+                tulos.setText("" + (logiikka.erotus(luku1, luku2)));
+                syote.setText("");
+            } else if (e.getSource() == jako) {
+                tulos.setText("" + (logiikka.jako(luku1, luku2)));
+                syote.setText("");
+            } else if (e.getSource() == kerto) {
+                tulos.setText("" + (logiikka.kerto(luku1, luku2)));
+                syote.setText("");
+            } else if (e.getSource() == nollaus) {
+                tulos.setText("" + (logiikka.nollaus()));
+                syote.setText("");
+            } else if (e.getSource() == nelioJuuri) {
+                tulos.setText("" + (logiikka.nelioJuuri(luku1)));
+                syote.setText("");
+            } else if (e.getSource() == nelio) {
+                tulos.setText("" + (logiikka.nelio(luku1)));
+                syote.setText("");
+            } else if (e.getSource() == logaritmi) {
+                tulos.setText("" + (logiikka.logaritmi(luku1)));
+                syote.setText("");
+            } else if (e.getSource() == kertoma) {
+                tulos.setText("" + (logiikka.kertoma(luku1)));
+                syote.setText("");
+            }
+
+            if (tulos.getText().equals("0")) {
+                nollaus.setEnabled(false);
+            } else {
+                nollaus.setEnabled(true);
+            }
         } else if (e.getSource() == nollaus) {
-            tulos.setText("0");
             syote.setText("");
-        }  else if (e.getSource() == nelioJuuri) {
-            tulos.setText("" + (logiikka.nelioJuuri(luku1)));
-            syote.setText("");
-        } else if (e.getSource() == nelio) {
-            tulos.setText("" + (logiikka.nelio(luku1)));
-            syote.setText("");
-        } else if (e.getSource() == logaritmi) {
-            tulos.setText("" + (logiikka.logaritmi(luku1)));
-            syote.setText("");
-        } else if (e.getSource() == kertoma) {
-            tulos.setText("" + (logiikka.kertoma(luku1)));
-            syote.setText("");
-        }
-        
-        
-        if (tulos.getText().equals("0")) {
-            nollaus.setEnabled(false);
+            tulos.setText("" + (logiikka.nollaus()));
         } else {
-            nollaus.setEnabled(true);
+            syote.setText("");
         }
+    }
+
+    public static boolean onDouble(String s) {
+        try {
+            Double.parseDouble(s);
+        } catch (NumberFormatException e) {
+            return false;
+        } catch (NullPointerException e) {
+            return false;
+        }
+        return true;
     }
 }

@@ -12,6 +12,9 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
+/**
+ * Luokka sisältää laskimen ulkoasun.
+ */
 public class Laskin implements Runnable {
 
     private JFrame frame;

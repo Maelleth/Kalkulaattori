@@ -19,7 +19,7 @@ public class Logiikka {
      *
      * @return lukujen summa
      */
-    public int summa(int luku1, int luku2) {
+    public double summa(double luku1, double luku2) {
         return luku1 + luku2;
     }
 
@@ -31,7 +31,7 @@ public class Logiikka {
      *
      * @return lukujen erotus
      */
-    public int erotus(int luku1, int luku2) {
+    public double erotus(double luku1, double luku2) {
         return luku2 - luku1;
     }
 
@@ -40,7 +40,7 @@ public class Logiikka {
      *
      * @return nolla
      */
-    public int nollaus() {
+    public double nollaus() {
         return 0;
     }
 
@@ -52,8 +52,8 @@ public class Logiikka {
      *
      * @return lukujen jakolasku
      */
-    public double jako(int luku1, int luku2) {
-        return (double) luku2 / luku1;
+    public double jako(double luku1, double luku2) {
+        return luku2 / luku1;
     }
 
     /**
@@ -64,7 +64,7 @@ public class Logiikka {
      *
      * @return lukujen kertolasku
      */
-    public int kerto(int luku1, int luku2) {
+    public double kerto(double luku1, double luku2) {
         return luku2 * luku1;
     }
 
@@ -75,7 +75,7 @@ public class Logiikka {
      *
      * @return luvun neliöjuuri jos luku on suurempi kuin nolla
      */
-    public double nelioJuuri(int luku) {
+    public double nelioJuuri(double luku) {
         if (luku > 0) {
             return Math.sqrt(luku);
         } else {
@@ -90,7 +90,7 @@ public class Logiikka {
      *
      * @return luvun neliö
      */
-    public int nelio(int luku) {
+    public double nelio(double luku) {
         return luku * luku;
     }
 
@@ -101,7 +101,7 @@ public class Logiikka {
      *
      * @return luvun kymmenkantainen logaritmi
      */
-    public double logaritmi(int luku) {
+    public double logaritmi(double luku) {
         return Math.log10(luku);
     }
 
@@ -112,7 +112,7 @@ public class Logiikka {
      *
      * @return luvun kertoma
      */
-    public int kertoma(int luku) {
+    public double kertoma(double luku) {
         if (luku <= 1) {
             return 1;
         } else {

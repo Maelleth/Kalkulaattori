@@ -36,43 +36,43 @@ public class LogiikkaTest {
     
     @Test
     public void nollausMetodiToimii() {
-        assertEquals(0, logiikka.nollaus());
+        assertEquals(0, logiikka.nollaus(), 0.01);
     }
     
     @Test
     public void summaMetodiToimii1() {
-        int vastaus = logiikka.summa(0, 5);
-        assertEquals(5, vastaus);
+        double vastaus = logiikka.summa(0, 5);
+        assertEquals(5, vastaus, 0.01);
     }
     
     @Test
     public void summaMetodiToimii2() {
-        int vastaus = logiikka.summa(35, 27);
-        assertEquals(62, vastaus);
+        double vastaus = logiikka.summa(35, 27);
+        assertEquals(62, vastaus, 0.01);
     }
     
     @Test
     public void summaMetodiToimii3() {
-        int vastaus = logiikka.summa(-13, 2);
-        assertEquals(-11, vastaus);
+        double vastaus = logiikka.summa(-13, 2);
+        assertEquals(-11, vastaus, 0.01);
     }
     
     @Test
     public void erotusMetodiToimii1() {
-        int vastaus = logiikka.erotus(40, 50);
-        assertEquals(10, vastaus);
+        double vastaus = logiikka.erotus(40, 50);
+        assertEquals(10, vastaus, 0.01);
     }
     
     @Test
     public void erotusMetodiToimii2() {
-        int vastaus = logiikka.erotus(14, 100);
-        assertEquals(86, vastaus);
+        double vastaus = logiikka.erotus(14, 100);
+        assertEquals(86, vastaus, 0.01);
     }
     
     @Test
     public void erotusMetodiToimii3() {
-        int vastaus = logiikka.erotus(20, 6);
-        assertEquals(-14, vastaus);
+        double vastaus = logiikka.erotus(20, 6);
+        assertEquals(-14, vastaus, 0.01);
     }
     
     @Test
@@ -95,26 +95,26 @@ public class LogiikkaTest {
     
     @Test
     public void kertoMetodiToimii1() {
-        int vastaus = logiikka.kerto(8, 3);
-        assertEquals(24, vastaus);
+        double vastaus = logiikka.kerto(8, 3);
+        assertEquals(24, vastaus, 0.01);
     }
     
     @Test
     public void kertoMetodiToimii2() {
-        int vastaus = logiikka.kerto(12, 9);
-        assertEquals(108, vastaus);
+        double vastaus = logiikka.kerto(12, 9);
+        assertEquals(108, vastaus, 0.01);
     }
     
     @Test
     public void nelioMetodiToimii1() {
-        int vastaus = logiikka.nelio(2);
-        assertEquals(4, vastaus);
+        double vastaus = logiikka.nelio(2);
+        assertEquals(4, vastaus, 0.01);
     }
     
     @Test
     public void nelioMetodiToimii2() {
-        int vastaus = logiikka.nelio(15);
-        assertEquals(225, vastaus);
+        double vastaus = logiikka.nelio(15);
+        assertEquals(225, vastaus, 0.01);
     }
     
     @Test
@@ -155,20 +155,20 @@ public class LogiikkaTest {
     
     @Test
     public void kertomaMetodiToimii1() {
-        int vastaus = logiikka.kertoma(3);
-        assertEquals(6, vastaus);
+        double vastaus = logiikka.kertoma(3);
+        assertEquals(6, vastaus, 0.01);
     }
     
     @Test
     public void kertomaMetodiToimii2() {
-        int vastaus = logiikka.kertoma(5);
-        assertEquals(120, vastaus);
+        double vastaus = logiikka.kertoma(5);
+        assertEquals(120, vastaus, 0.01);
     }
     
     @Test
     public void kertomaMetodiToimii3() {
-        int vastaus = logiikka.kertoma(8);
-        assertEquals(40320, vastaus);
+        double vastaus = logiikka.kertoma(8);
+        assertEquals(40320, vastaus, 0.01);
     }
     
 }
