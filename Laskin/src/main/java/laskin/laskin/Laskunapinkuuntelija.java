@@ -77,17 +77,17 @@ public class Laskunapinkuuntelija implements ActionListener {
                 tulos.setText("" + (logiikka.kertoma(luku1)));
                 syote.setText("");
             }
-
-            if (tulos.getText().equals("0")) {
-                nollaus.setEnabled(false);
-            } else {
-                nollaus.setEnabled(true);
-            }
         } else if (e.getSource() == nollaus) {
             syote.setText("");
             tulos.setText("" + (logiikka.nollaus()));
         } else {
             syote.setText("");
+        }
+
+        if (tulos.getText().equals("0.0")) {
+            nollaus.setEnabled(false);
+        } else {
+            nollaus.setEnabled(true);
         }
     }
 

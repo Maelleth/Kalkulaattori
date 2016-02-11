@@ -135,6 +135,12 @@ public class LogiikkaTest {
         assertEquals(Math.sqrt(5), vastaus, 0.01);
     }
     
+     @Test
+    public void nelioJuuriMetodiToimii4() {
+        double vastaus = logiikka.nelioJuuri(-2);
+        assertEquals(0, vastaus, 0.01);
+    }
+    
     @Test
     public void logaritmiMetodiToimii1() {
         double vastaus = logiikka.logaritmi(20);
