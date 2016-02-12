@@ -64,3 +64,11 @@
 - Testejä luokalle Laskunapinkuuntelija
 - Checkstylen tuonti projektiin
 
+#### **12.02.2016:**
+
+**Käyttämäni aika:** noin 1h
+
+**Ajankäytön kohde:** 
+- Laskunapinkuuntelija luokalle lisää testejä
+- pit-raportti
+- checkstyle-raportti
