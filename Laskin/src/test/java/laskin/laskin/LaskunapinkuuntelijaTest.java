@@ -107,4 +107,94 @@ public class LaskunapinkuuntelijaTest {
         kuuntelija.actionPerformed(ae);
         assertEquals("-6.0", tulos.getText());
     }
+    
+    @Test
+    public void jakoToimii1() {
+        ActionEvent ae = new ActionEvent(jako, 1, "");
+        tulos.setText("100");
+        syote.setText("4");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("25.0", tulos.getText());
+    }
+    
+    @Test
+    public void jakoToimii2() {
+        ActionEvent ae = new ActionEvent(jako, 1, "");
+        tulos.setText("60");
+        syote.setText("10");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("6.0", tulos.getText());
+    }
+    
+    @Test
+    public void kertoToimii1() {
+        ActionEvent ae = new ActionEvent(kerto, 1, "");
+        tulos.setText("90");
+        syote.setText("2");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("180.0", tulos.getText());
+    }
+    
+    @Test
+    public void kertoToimii2() {
+        ActionEvent ae = new ActionEvent(kerto, 1, "");
+        tulos.setText("13");
+        syote.setText("3");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("39.0", tulos.getText());
+    }
+    
+    @Test
+    public void nelioJuuriToimii1() {
+        ActionEvent ae = new ActionEvent(nelioJuuri, 1, "");
+        tulos.setText("0");
+        syote.setText("9");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("3.0", tulos.getText());
+    }
+    
+    @Test
+    public void nelioJuuriToimii2() {
+        ActionEvent ae = new ActionEvent(nelioJuuri, 1, "");
+        tulos.setText("10");
+        syote.setText("-5");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("0.0", tulos.getText());
+    }
+    
+    @Test
+    public void nelioToimii1() {
+        ActionEvent ae = new ActionEvent(nelio, 1, "");
+        tulos.setText("0");
+        syote.setText("2");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("4.0", tulos.getText());
+    }
+    
+    @Test
+    public void nelioToimii2() {
+        ActionEvent ae = new ActionEvent(nelio, 1, "");
+        tulos.setText("10");
+        syote.setText("-5");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("25.0", tulos.getText());
+    }
+    
+    @Test
+    public void logaritmiToimii() {
+        ActionEvent ae = new ActionEvent(logaritmi, 1, "");
+        tulos.setText("0");
+        syote.setText("100");
+        kuuntelija.actionPerformed(ae);
+        assertEquals(""+ Math.log10(100), tulos.getText());
+    }
+    
+    @Test
+    public void kertomaToimii() {
+        ActionEvent ae = new ActionEvent(kertoma, 1, "");
+        tulos.setText("0");
+        syote.setText("4");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("24.0", tulos.getText());
+    }
 }
