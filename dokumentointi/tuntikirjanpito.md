@@ -72,3 +72,14 @@
 - Laskunapinkuuntelija luokalle lisää testejä
 - pit-raportti
 - checkstyle-raportti
+
+#### **17.02.2016:**
+
+**Käyttämäni aika:** noin 2,5h
+
+**Ajankäytön kohde:** 
+- Muuntimenkuuntelija luokan ohjelmointia
+- Laskin luokan ohjelmointia
+- checkstylen muokkaus
+- JavaDocia lisää
+- Muuntimenkuuntelija luokalle testejä
