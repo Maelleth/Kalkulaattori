@@ -197,4 +197,13 @@ public class LaskunapinkuuntelijaTest {
         kuuntelija.actionPerformed(ae);
         assertEquals("24.0", tulos.getText());
     }
+    
+    @Test
+    public void doubleTestausToimii() {
+        ActionEvent ae = new ActionEvent(summa, 1, "");
+        tulos.setText("0");
+        syote.setText("moi");
+        kuuntelija.actionPerformed(ae);
+        assertEquals("", syote.getText());
+    }
 }

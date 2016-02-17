@@ -26,8 +26,8 @@ public class Laskin implements Runnable {
     @Override
     public void run() {
         frame = new JFrame("Laskin");
-        frame.setLayout(new GridLayout(3, 1));
-        frame.setPreferredSize(new Dimension(300, 300));
+        frame.setLayout(new GridLayout(4, 1));
+        frame.setPreferredSize(new Dimension(300, 400));
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         luoKomponentit(frame.getContentPane());
@@ -44,10 +44,11 @@ public class Laskin implements Runnable {
         JTextField syoteKentta = new JTextField();
         container.add(syoteKentta);
 
-        container.add(luoValikko(tulosKentta, syoteKentta), BorderLayout.SOUTH);
+        container.add(luoLaskuValikko(tulosKentta, syoteKentta));
+        container.add(luoMuunninValikko(tulosKentta, syoteKentta));
     }
 
-    private JPanel luoValikko(JTextField kentta1, JTextField kentta2) {
+    private JPanel luoLaskuValikko(JTextField kentta1, JTextField kentta2) {
         JPanel paneeli = new JPanel(new GridLayout(3, 3));
         JButton summa = new JButton("+");
         JButton erotus = new JButton("-");
@@ -82,6 +83,34 @@ public class Laskin implements Runnable {
         logaritmi.addActionListener(laskukuuntelija);
         kertoma.addActionListener(laskukuuntelija);
 
+        return paneeli;
+    }
+    
+    private JPanel luoMuunninValikko(JTextField kentta1, JTextField kentta2) {
+        JPanel paneeli = new JPanel(new GridLayout(2, 3));
+        JButton cF = new JButton("C(F)");
+        JButton cK = new JButton("C(K)");
+        JButton fC = new JButton("F(C)");
+        JButton fK = new JButton("F(K)");
+        JButton kC = new JButton("K(C)");
+        JButton kF = new JButton("K(F)");
+        
+        Muuntimenkuuntelija muunninkuuntelija = new Muuntimenkuuntelija(kentta1, kentta2, cF, cK, fC, fK, kC, kF);
+        
+        paneeli.add(cF);
+        paneeli.add(cK);
+        paneeli.add(fC);
+        paneeli.add(fK);
+        paneeli.add(kC);
+        paneeli.add(kF);
+        
+        cF.addActionListener(muunninkuuntelija);
+        cK.addActionListener(muunninkuuntelija);
+        fC.addActionListener(muunninkuuntelija);
+        fK.addActionListener(muunninkuuntelija);
+        kC.addActionListener(muunninkuuntelija);
+        kF.addActionListener(muunninkuuntelija);
+        
         return paneeli;
     }
 
