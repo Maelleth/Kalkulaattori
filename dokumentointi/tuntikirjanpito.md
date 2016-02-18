@@ -96,3 +96,4 @@
 - Muuntimenkuuntelija ja Laskunapinkuuntelija luokkien muokkaus
 - Sekvenssikaavioiden tekeminen
 - Luokkakaavion muokkaus
+- Checkstyle-raportti
