@@ -28,7 +28,7 @@ Laskimessa on myös lämpötilamuunnin nappeja, joilla voi muuntaa Celsiukset Fa
  * Kelvineistä Celsiuksiin/Fahrenheiteihin
  
 
- ![Luokkakaavio](muokattuLuokkaKaavio.png "Luokkakaavio")
+ ![Luokkakaavio](uusiLuokkaKaavio.png "Luokkakaavio")
 
  ![Sekvenssikaavio_1](Sekvenssikaavio_1.png "Sekvenssikaavio_1")
 
