@@ -50,7 +50,7 @@ public class Muuntimenkuuntelija implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (onDouble(syote.getText())) {
+        if (muunnin.onDouble(syote.getText())) {
 
             double lampotila = Double.parseDouble(syote.getText());
 
@@ -78,22 +78,6 @@ public class Muuntimenkuuntelija implements ActionListener {
         }
     }
 
-    /**
-     * Metodi tarkistaa onko annettu merkkijono double kun se muutetaan luvuksi.
-     *
-     * @param s Käyttäjän antama syöte
-     *
-     * @return true jos merkkijonon voi muuntaa double luvuksi
-     */
-    public static boolean onDouble(String s) {
-        try {
-            Double.parseDouble(s);
-        } catch (NumberFormatException e) {
-            return false;
-        } catch (NullPointerException e) {
-            return false;
-        }
-        return true;
-    }
+    
 
 }

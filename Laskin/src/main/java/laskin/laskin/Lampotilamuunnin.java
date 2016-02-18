@@ -77,5 +77,23 @@ public class Lampotilamuunnin {
     public double kelvinistaFahrenheitiin(double kelvin) {
         return kelvin * 1.8 - 459.67;
     }
+    
+    /**
+     * Metodi tarkistaa onko annettu merkkijono double kun se muutetaan luvuksi.
+     *
+     * @param s Käyttäjän antama syöte
+     *
+     * @return true jos merkkijonon voi muuntaa double luvuksi
+     */
+    public static boolean onDouble(String s) {
+        try {
+            Double.parseDouble(s);
+        } catch (NumberFormatException e) {
+            return false;
+        } catch (NullPointerException e) {
+            return false;
+        }
+        return true;
+    }
 
 }
