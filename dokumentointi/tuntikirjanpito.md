@@ -83,3 +83,16 @@
 - checkstylen muokkaus
 - JavaDocia lisää
 - Muuntimenkuuntelija luokalle testejä
+
+#### **18.02.2016:**
+
+**Käyttämäni aika:** noin 5,5h
+
+**Ajankäytön kohde:** 
+- Checkstyle errorien korjaus
+- Koodikatselmoinnin tekeminen
+- LaskinUtil luokan luominen
+- LaskinUtil luokalle pari testiä
+- Muuntimenkuuntelija ja Laskunapinkuuntelija luokkien muokkaus
+- Sekvenssikaavioiden tekeminen
+- Luokkakaavion muokkaus

@@ -58,7 +58,7 @@ public class Laskunapinkuuntelija implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (logiikka.onDouble(syote.getText())) {
+        if (LaskinUtil.onDouble(syote.getText())) {
 
             double luku1 = Double.parseDouble(syote.getText());
             double luku2 = Double.parseDouble(tulos.getText());

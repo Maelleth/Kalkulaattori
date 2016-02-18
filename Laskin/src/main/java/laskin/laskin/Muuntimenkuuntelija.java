@@ -50,7 +50,7 @@ public class Muuntimenkuuntelija implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (muunnin.onDouble(syote.getText())) {
+        if (LaskinUtil.onDouble(syote.getText())) {
 
             double lampotila = Double.parseDouble(syote.getText());
 

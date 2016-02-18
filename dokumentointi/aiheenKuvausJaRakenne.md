@@ -30,4 +30,7 @@ Laskimessa on myös lämpötilamuunnin nappeja, joilla voi muuntaa Celsiukset Fa
 
  ![Luokkakaavio](muokattuLuokkaKaavio.png "Luokkakaavio")
 
+ ![Sekvenssikaavio_1](Sekvenssikaavio_1.png "Sekvenssikaavio_1")
+
+ ![Sekvenssikaavio_2](Sekvenssikaavio_2.png "Sekvenssikaavio_2")
 
