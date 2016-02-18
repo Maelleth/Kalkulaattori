@@ -5,6 +5,9 @@ package laskin.laskin;
  */
 public class Lampotilamuunnin {
 
+    /**
+     * Lampotilamuuntimen konstruktori.
+     */
     public Lampotilamuunnin() {
 
     }

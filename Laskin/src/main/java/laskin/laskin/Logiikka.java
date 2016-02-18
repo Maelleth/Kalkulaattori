@@ -7,6 +7,9 @@ import javax.swing.JTextField;
  */
 public class Logiikka {
 
+    /**
+     * Logiikan konstruktori.
+     */
     public Logiikka() {
 
     }

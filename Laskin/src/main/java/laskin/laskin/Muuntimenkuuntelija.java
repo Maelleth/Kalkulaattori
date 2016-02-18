@@ -20,7 +20,19 @@ public class Muuntimenkuuntelija implements ActionListener {
     private JButton kC;
     private JButton kF;
     private Lampotilamuunnin muunnin;
-
+    
+    /**
+     * Muuntimenkuuntelijan konstruktori.
+     * 
+     * @param tulos Laskutoimituksen tuloksen näyttävä tekstikenttä
+     * @param syote Tekstikenttä johon käyttäjä syöttää luvun
+     * @param cF Nappi joka muuntaa Celsiukset Fahrenheitiksi
+     * @param cK Nappi joka muuntaa Celsiukset Kelvineiksi
+     * @param fC Nappi joka muuntaa Fahrenheitit Celsiuksiksi
+     * @param fK Nappi joka muuntaa Fahrenheitit Kelvineiksi
+     * @param kC Nappi joka muuntaa Kelvinit Celsiuksiksi
+     * @param kF Nappi joka muuntaa Kelvinit Fahrenheitiksi
+     */
     public Muuntimenkuuntelija(JTextField tulos, JTextField syote, JButton cF, JButton cK,
             JButton fC, JButton fK, JButton kC, JButton kF) {
 

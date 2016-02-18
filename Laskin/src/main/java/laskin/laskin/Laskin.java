@@ -19,6 +19,9 @@ public class Laskin implements Runnable {
 
     private JFrame frame;
 
+    /**
+     * Laskimen konstruktori.
+     */
     public Laskin() {
 
     }

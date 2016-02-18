@@ -23,7 +23,21 @@ public class Laskunapinkuuntelija implements ActionListener {
     private JButton logaritmi;
     private JButton kertoma;
     private Logiikka logiikka;
-
+    
+    /**
+     * Laskunapinkuuntelijan konstruktori.
+     * @param tulos Laskutoimituksen tuloksen näyttävä tekstikenttä
+     * @param syote Tekstikenttä johon käyttäjä syöttää luvun
+     * @param summa Nappi jolla lasketaan kahden luvun summa
+     * @param erotus Nappi jolla lasketaan kahden luvun erotus
+     * @param nollaus Nappi jolla nollataan tuloskenttä
+     * @param jako Nappi jolla lasketaan kahden luvun jakolasku
+     * @param kerto Nappi jolla lasketaan kahden luvun kertolasku
+     * @param nelioJuuri Nappi jolla lasketaan luvun neliöjuuri
+     * @param nelio Nappi jolla lasketaan luvun nelio
+     * @param logaritmi Nappi jolla lasketaan luvun kymmenkantainen logaritmi
+     * @param kertoma Nappi jolla lasketaan luvun kertoma
+     */
     public Laskunapinkuuntelija(JTextField tulos, JTextField syote, JButton summa, JButton erotus, JButton nollaus,
             JButton jako, JButton kerto, JButton nelioJuuri, JButton nelio, JButton logaritmi, JButton kertoma) {
 
