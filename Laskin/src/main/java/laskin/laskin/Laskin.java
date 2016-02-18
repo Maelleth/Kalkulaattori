@@ -41,7 +41,7 @@ public class Laskin implements Runnable {
 
     private void luoKomponentit(Container container) {
         JTextField tulosKentta = new JTextField();
-        tulosKentta.setText("0");
+        tulosKentta.setText("0.0");
         tulosKentta.setEnabled(false);
         container.add(tulosKentta);
         JTextField syoteKentta = new JTextField();

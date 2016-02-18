@@ -58,7 +58,7 @@ public class Laskunapinkuuntelija implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (onDouble(syote.getText())) {
+        if (logiikka.onDouble(syote.getText())) {
 
             double luku1 = Double.parseDouble(syote.getText());
             double luku2 = Double.parseDouble(tulos.getText());
@@ -103,23 +103,5 @@ public class Laskunapinkuuntelija implements ActionListener {
         } else {
             nollaus.setEnabled(true);
         }
-    }
-    
-    /**
-     * Metodi tarkistaa onko annettu merkkijono double kun se muutetaan luvuksi.
-     *
-     * @param s Käyttäjän antama syöte
-     *
-     * @return true jos merkkijonon voi muuntaa double luvuksi
-     */
-    public static boolean onDouble(String s) {
-        try {
-            Double.parseDouble(s);
-        } catch (NumberFormatException e) {
-            return false;
-        } catch (NullPointerException e) {
-            return false;
-        }
-        return true;
     }
 }
