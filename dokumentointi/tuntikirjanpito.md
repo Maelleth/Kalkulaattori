@@ -97,3 +97,12 @@
 - Sekvenssikaavioiden tekeminen
 - Luokkakaavion muokkaus
 - Checkstyle-raportti
+
+#### **23.02.2016:**
+
+**Käyttämäni aika:** noin 1,5h
+
+**Ajankäytön kohde:** 
+- Rakennekuvauksen kirjoitus
+- Käyttöohjeiden kirjoitus
+- Logiikka luokkien ja kuuntelija luokkien siirto omiin pakkauksiin
