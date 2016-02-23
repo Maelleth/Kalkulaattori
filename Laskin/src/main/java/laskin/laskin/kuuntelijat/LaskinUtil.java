@@ -1,4 +1,4 @@
-package laskin.laskin;
+package laskin.laskin.kuuntelijat;
 
 public class LaskinUtil {
 

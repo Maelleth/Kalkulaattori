@@ -5,6 +5,7 @@
  */
 package laskin.laskin;
 
+import laskin.laskin.kuuntelijat.LaskinUtil;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

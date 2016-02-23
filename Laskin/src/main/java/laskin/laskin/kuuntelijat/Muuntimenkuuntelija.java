@@ -1,4 +1,4 @@
-package laskin.laskin;
+package laskin.laskin.kuuntelijat;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

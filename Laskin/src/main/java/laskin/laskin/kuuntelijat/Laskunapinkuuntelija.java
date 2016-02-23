@@ -1,5 +1,6 @@
-package laskin.laskin;
+package laskin.laskin.kuuntelijat;
 
+import laskin.laskin.kuuntelijat.LaskinUtil;
 import laskin.laskin.logiikat.Logiikka;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,9 +25,10 @@ public class Laskunapinkuuntelija implements ActionListener {
     private JButton logaritmi;
     private JButton kertoma;
     private Logiikka logiikka;
-    
+
     /**
      * Laskunapinkuuntelijan konstruktori.
+     *
      * @param tulos Laskutoimituksen tuloksen näyttävä tekstikenttä
      * @param syote Tekstikenttä johon käyttäjä syöttää luvun
      * @param summa Nappi jolla lasketaan kahden luvun summa
