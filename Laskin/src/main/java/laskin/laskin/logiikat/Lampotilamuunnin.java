@@ -1,4 +1,4 @@
-package laskin.laskin;
+package laskin.laskin.logiikat;
 
 /**
  * Luokan metodit muuntavat Celsiuksia, Fahrenheiteja ja Kelvinejä keskenään.
@@ -22,7 +22,7 @@ public class Lampotilamuunnin {
     public double celsiuksestaFahrenheitiin(double celsius) {
         return celsius * 1.8 + 32;
     }
-    
+
     /**
      * Metodi muuntaa käyttäjän syöttämän luvun eli Celsiukset Kelvineiksi.
      *
@@ -77,7 +77,4 @@ public class Lampotilamuunnin {
     public double kelvinistaFahrenheitiin(double kelvin) {
         return kelvin * 1.8 - 459.67;
     }
-    
-    
-
 }

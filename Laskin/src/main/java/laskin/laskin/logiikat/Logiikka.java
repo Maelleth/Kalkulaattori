@@ -1,4 +1,4 @@
-package laskin.laskin;
+package laskin.laskin.logiikat;
 
 import javax.swing.JTextField;
 

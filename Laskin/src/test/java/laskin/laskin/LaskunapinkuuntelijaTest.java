@@ -1,5 +1,6 @@
 package laskin.laskin;
 
+import laskin.laskin.logiikat.Logiikka;
 import java.awt.event.ActionEvent;
 import org.junit.After;
 import org.junit.AfterClass;

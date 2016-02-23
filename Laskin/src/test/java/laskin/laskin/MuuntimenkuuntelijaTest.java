@@ -10,6 +10,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import javax.swing.JButton;
 import javax.swing.JTextField;
+import laskin.laskin.logiikat.Lampotilamuunnin;
 
 /**
  *

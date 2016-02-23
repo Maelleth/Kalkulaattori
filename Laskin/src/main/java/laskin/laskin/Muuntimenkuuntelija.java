@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JTextField;
+import laskin.laskin.logiikat.Lampotilamuunnin;
 
 /**
  * Luokka on napinkuuntelija napeille joilla muunnetaan lämpötiloja Celsiuksien,

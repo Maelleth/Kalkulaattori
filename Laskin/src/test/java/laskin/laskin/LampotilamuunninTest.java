@@ -1,6 +1,7 @@
 
 package laskin.laskin;
 
+import laskin.laskin.logiikat.Lampotilamuunnin;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
