@@ -106,3 +106,21 @@
 - Rakennekuvauksen kirjoitus
 - Käyttöohjeiden kirjoitus
 - Logiikka luokkien ja kuuntelija luokkien siirto omiin pakkauksiin
+
+#### **24.02.2016:**
+
+**Käyttämäni aika:** noin 0,5h
+
+**Ajankäytön kohde:** 
+- jar-tiedoston luominen
+
+#### **26.02.2016:**
+
+**Käyttämäni aika:** noin 1,5h
+
+**Ajankäytön kohde:** 
+- uusi checkstyle-raportti
+- uusi pit-raportti
+- käyttöohjeiden muokkaus
+- Logiikka luokan muokkausta
+- Logiikka luokalle uusi testi muokkauksen seurauksena
