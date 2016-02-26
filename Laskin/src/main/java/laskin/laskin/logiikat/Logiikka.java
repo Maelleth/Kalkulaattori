@@ -56,6 +56,9 @@ public class Logiikka {
      * @return lukujen jakolasku
      */
     public double jako(double luku1, double luku2) {
+        if(luku1 == 0) {
+            return 0;
+        }
         return luku2 / luku1;
     }
 

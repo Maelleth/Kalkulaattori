@@ -95,6 +95,12 @@ public class LogiikkaTest {
     }
     
     @Test
+    public void jakoMetodiToimii4() {
+        double vastaus = logiikka.jako(89, 0);
+        assertEquals(0.0, vastaus, 0.01);
+    }
+    
+    @Test
     public void kertoMetodiToimii1() {
         double vastaus = logiikka.kerto(8, 3);
         assertEquals(24, vastaus, 0.01);
