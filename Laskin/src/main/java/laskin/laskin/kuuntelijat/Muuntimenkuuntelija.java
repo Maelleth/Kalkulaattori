@@ -21,10 +21,11 @@ public class Muuntimenkuuntelija implements ActionListener {
     private JButton kC;
     private JButton kF;
     private Lampotilamuunnin muunnin;
-    
+    private JButton nollaus;
+
     /**
      * Muuntimenkuuntelijan konstruktori.
-     * 
+     *
      * @param tulos Laskutoimituksen tuloksen näyttävä tekstikenttä
      * @param syote Tekstikenttä johon käyttäjä syöttää luvun
      * @param cF Nappi joka muuntaa Celsiukset Fahrenheitiksi
@@ -35,7 +36,7 @@ public class Muuntimenkuuntelija implements ActionListener {
      * @param kF Nappi joka muuntaa Kelvinit Fahrenheitiksi
      */
     public Muuntimenkuuntelija(JTextField tulos, JTextField syote, JButton cF, JButton cK,
-            JButton fC, JButton fK, JButton kC, JButton kF) {
+            JButton fC, JButton fK, JButton kC, JButton kF, JButton nollaus) {
 
         this.tulos = tulos;
         this.syote = syote;
@@ -47,6 +48,7 @@ public class Muuntimenkuuntelija implements ActionListener {
         this.kF = kF;
 
         this.muunnin = new Lampotilamuunnin();
+        this.nollaus = nollaus;
     }
 
     @Override
@@ -77,8 +79,12 @@ public class Muuntimenkuuntelija implements ActionListener {
         } else {
             syote.setText("");
         }
-    }
 
-    
+        if (tulos.getText().equals("0.0")) {
+            nollaus.setEnabled(false);
+        } else {
+            nollaus.setEnabled(true);
+        }
+    }
 
 }

@@ -21,6 +21,7 @@ import javax.swing.WindowConstants;
 public class Laskin implements Runnable {
 
     private JFrame frame;
+    JButton nollaus = new JButton("0");
 
     /**
      * Laskimen konstruktori.
@@ -58,7 +59,7 @@ public class Laskin implements Runnable {
         JPanel paneeli = new JPanel(new GridLayout(3, 3));
         JButton summa = new JButton("+");
         JButton erotus = new JButton("-");
-        JButton nollaus = new JButton("0");
+        //JButton nollaus = new JButton("0");
         nollaus.setEnabled(false);
         JButton jako = new JButton("/");
         JButton kerto = new JButton("*");
@@ -101,7 +102,7 @@ public class Laskin implements Runnable {
         JButton kC = new JButton("K(C)");
         JButton kF = new JButton("K(F)");
         
-        Muuntimenkuuntelija muunninkuuntelija = new Muuntimenkuuntelija(kentta1, kentta2, cF, cK, fC, fK, kC, kF);
+        Muuntimenkuuntelija muunninkuuntelija = new Muuntimenkuuntelija(kentta1, kentta2, cF, cK, fC, fK, kC, kF, nollaus);
         
         paneeli.add(cF);
         paneeli.add(cK);

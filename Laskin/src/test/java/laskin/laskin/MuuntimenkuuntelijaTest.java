@@ -29,6 +29,7 @@ public class MuuntimenkuuntelijaTest {
     private JButton kC;
     private JButton kF;
     private Lampotilamuunnin muunnin;
+    private JButton nollaus;
     
     public MuuntimenkuuntelijaTest() {
     }
@@ -51,8 +52,9 @@ public class MuuntimenkuuntelijaTest {
         this.fK = new JButton();
         this.kC = new JButton();
         this.kF = new JButton();
+        this.nollaus = new JButton();
         
-        this.kuuntelija = new Muuntimenkuuntelija(tulos, syote, cF, cK, fC, fK, kC, kF);
+        this.kuuntelija = new Muuntimenkuuntelija(tulos, syote, cF, cK, fC, fK, kC, kF, nollaus);
         this.muunnin = new Lampotilamuunnin();
     }
     
@@ -63,7 +65,7 @@ public class MuuntimenkuuntelijaTest {
     @Test
     public void celsiuksestaFahrenheitiinToimii() {
         ActionEvent ae = new ActionEvent(cF, 1, "");
-        tulos.setText("0");
+        tulos.setText("0.0");
         syote.setText("22");
         kuuntelija.actionPerformed(ae);
         assertEquals("71.6", tulos.getText());
