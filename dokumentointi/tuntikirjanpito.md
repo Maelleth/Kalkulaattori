@@ -124,3 +124,11 @@
 - käyttöohjeiden muokkaus
 - Logiikka luokan muokkausta
 - Logiikka luokalle uusi testi muokkauksen seurauksena
+
+#### **03.03.2016:**
+
+**Käyttämäni aika:** noin 0,5h
+
+**Ajankäytön kohde:** 
+- pom.xml tiedoston muokkaus niin, että pit raportti ei sisällä Main ja Laskin luokkia, koska niitä ei testata
+- muutoksia koodiin jotta nollaus toimii oikein kun muuntaja nappeja painaa

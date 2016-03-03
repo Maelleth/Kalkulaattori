@@ -34,6 +34,7 @@ public class Muuntimenkuuntelija implements ActionListener {
      * @param fK Nappi joka muuntaa Fahrenheitit Kelvineiksi
      * @param kC Nappi joka muuntaa Kelvinit Celsiuksiksi
      * @param kF Nappi joka muuntaa Kelvinit Fahrenheitiksi
+     * @param nollaus Nappi jolla nollataan tuloskenttä
      */
     public Muuntimenkuuntelija(JTextField tulos, JTextField syote, JButton cF, JButton cK,
             JButton fC, JButton fK, JButton kC, JButton kF, JButton nollaus) {
