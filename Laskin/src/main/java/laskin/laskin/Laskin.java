@@ -59,7 +59,6 @@ public class Laskin implements Runnable {
         JPanel paneeli = new JPanel(new GridLayout(3, 3));
         JButton summa = new JButton("+");
         JButton erotus = new JButton("-");
-        //JButton nollaus = new JButton("0");
         nollaus.setEnabled(false);
         JButton jako = new JButton("/");
         JButton kerto = new JButton("*");
