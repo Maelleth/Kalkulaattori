@@ -132,3 +132,13 @@
 **Ajankäytön kohde:** 
 - pom.xml tiedoston muokkaus niin, että pit raportti ei sisällä Main ja Laskin luokkia, koska niitä ei testata
 - muutoksia koodiin jotta nollaus toimii oikein kun muuntaja nappeja painaa
+
+#### **04.03.2016:**
+
+**Käyttämäni aika:** noin 0,5h
+
+**Ajankäytön kohde:** 
+- uusi pit-raportti
+- uusi checkstyle-raportti
+- uusi javadoc html
+- yleinen tarkistus
